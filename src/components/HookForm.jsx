@@ -35,14 +35,14 @@ const HookForm = (props)=>{
         //set the ninjaList variable using the setter (setNinjaList()) to contain a copy of whatever is currently already in the ninja list (...ninjaList) and add the new ninja object to the end of that list (, newNinjaObj);
 
     }
-    const handleInputErrors = (e)=>{
-        setFirstName(e.target.value);
-        if(firstName.length < 2){
-            setfirstNameError('name needs to be more than 2 character')
-            console.log(firstNameError);
-        }
-        console.log("hello");
-    }
+//     const handleInputErrors = (e)=>{
+//         setFirstName(e.target.value);
+//         if(firstName.length < 2){
+//             setfirstNameError('name needs to be more than 2 character')
+//             console.log(firstNameError);
+//         }
+//         console.log("hello");
+//     }
 
     return (
         <>
