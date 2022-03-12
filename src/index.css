@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: auto;
 }
 
 code {
@@ -17,5 +18,10 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: peru;
+  background-color: whitesmoke;
+  width: 500px;
+  height: auto;
+}
+input{
+  margin-top: 40px;
 }
